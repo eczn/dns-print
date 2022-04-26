@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    /* Basic Options */
+    "incremental": true,
+    "target": "ES2018",
+    "module": "commonjs",
+    "rootDirs": ["./src"],
+    "baseUrl": ".",
+    "outDir": "./dist",
+    "strict": true,
+    "esModuleInterop": true,
+    "declaration": true
+  }
+}
