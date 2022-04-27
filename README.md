@@ -10,3 +10,9 @@ $ dns-print google.com
 $ alias dnsp="dns-print"
 ```
 
+# -s, --silent
+
+``` bash
+$ dns-print -s google.com
+```
+
