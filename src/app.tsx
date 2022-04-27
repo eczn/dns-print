@@ -24,8 +24,9 @@ export function App(props: AppProps) {
   return (
     <Box flexDirection="column" padding={1}>
         <Box>
-          <Text>{`${props.hostname} `}</Text>
-          <Loading loading={mergedLoading} endText={` [ query done in ${cost} ms `.bgWhite.black} />
+          <Text>{`"${props.hostname}" ${mergedLoading ? '?' : ''} `}</Text>
+          <Loading loading={mergedLoading} endText={` query done in ${cost} ms `.bgWhite.black} />
+          <Newline />
         </Box>
 
         {A.jsx}
